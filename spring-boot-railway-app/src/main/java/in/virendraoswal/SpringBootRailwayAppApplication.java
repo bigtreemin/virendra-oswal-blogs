@@ -17,7 +17,7 @@ public class SpringBootRailwayAppApplication {
 @RestController
 class GreetingController {
 
-	@GetMapping(value = "/greet")
+	@GetMapping(value = "/")
 	public String greet() {
 		return "Greeting from Railway.app";
 	}
